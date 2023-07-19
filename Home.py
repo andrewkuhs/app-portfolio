@@ -11,9 +11,11 @@ with col1:
 with col2:
     st.title("Andrew Kuhs")
     content = """
-    Hi, I'm Andy. I'm a math teacher and coding student.
+    Hi, I'm Andy. I'm a math teacher and aspiring data scientist.
+    I'll update this page over time, not all projects are currently
+    functional.
     """
-    st.write(content)
+    st.info(content)
 
 content2 = """
 There are some apps I'm working on listed below.
